@@ -490,6 +490,7 @@
 
 
 \newcommand*\twocolumnsection[2]{
+  \vspace{-\parskip}
   \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
     #1
   \end{minipage}
